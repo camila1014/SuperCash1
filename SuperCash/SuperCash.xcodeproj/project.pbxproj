@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F127568C29CA1CE500EA9943 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127568B29CA1CE500EA9943 /* User.swift */; };
+		F13D9F7429CA0BDE002AD177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D9F7329CA0BDE002AD177 /* AppDelegate.swift */; };
+		F13D9F7629CA0BDE002AD177 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D9F7529CA0BDE002AD177 /* SceneDelegate.swift */; };
+		F13D9F7B29CA0BDE002AD177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13D9F7929CA0BDE002AD177 /* Main.storyboard */; };
+		F13D9F7D29CA0BE1002AD177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13D9F7C29CA0BE1002AD177 /* Assets.xcassets */; };
+		F13D9F8029CA0BE1002AD177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13D9F7E29CA0BE1002AD177 /* LaunchScreen.storyboard */; };
+		F13D9F8B29CA0BE2002AD177 /* SuperCashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D9F8A29CA0BE2002AD177 /* SuperCashTests.swift */; };
+		F13D9F9529CA0BE2002AD177 /* SuperCashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D9F9429CA0BE2002AD177 /* SuperCashUITests.swift */; };
+		F13D9F9729CA0BE2002AD177 /* SuperCashUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D9F9629CA0BE2002AD177 /* SuperCashUITestsLaunchTests.swift */; };
+		F13D9FA529CA0C3C002AD177 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D9FA429CA0C3C002AD177 /* LoginViewController.swift */; };
+		F13D9FA729CA0C46002AD177 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D9FA629CA0C46002AD177 /* SignUpViewController.swift */; };
+		F13D9FAD29CA0FC4002AD177 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F13D9FAC29CA0FC4002AD177 /* ParseSwift */; };
+		F1632ED929CBAD6700EE7BF0 /* SubscriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1632ED829CBAD6700EE7BF0 /* SubscriptionsViewController.swift */; };
+		F1632EDB29CBAE0700EE7BF0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1632EDA29CBAE0700EE7BF0 /* AddViewController.swift */; };
+		F1632EDD29CBAE7B00EE7BF0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1632EDC29CBAE7B00EE7BF0 /* DetailViewController.swift */; };
+		F1632EE129CBB56F00EE7BF0 /* SubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1632EE029CBB56F00EE7BF0 /* SubCell.swift */; };
+		F1FF331629CA3D7800B6F5BC /* Sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF331529CA3D7800B6F5BC /* Sub.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F13D9F8729CA0BE2002AD177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13D9F6829CA0BDE002AD177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13D9F6F29CA0BDE002AD177;
+			remoteInfo = SuperCash;
+		};
+		F13D9F9129CA0BE2002AD177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13D9F6829CA0BDE002AD177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13D9F6F29CA0BDE002AD177;
+			remoteInfo = SuperCash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F127568B29CA1CE500EA9943 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F13D9F7029CA0BDE002AD177 /* SuperCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13D9F7329CA0BDE002AD177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F13D9F7529CA0BDE002AD177 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F13D9F7A29CA0BDE002AD177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13D9F7C29CA0BE1002AD177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13D9F7F29CA0BE1002AD177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13D9F8129CA0BE1002AD177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13D9F8629CA0BE2002AD177 /* SuperCashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13D9F8A29CA0BE2002AD177 /* SuperCashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCashTests.swift; sourceTree = "<group>"; };
+		F13D9F9029CA0BE2002AD177 /* SuperCashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13D9F9429CA0BE2002AD177 /* SuperCashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCashUITests.swift; sourceTree = "<group>"; };
+		F13D9F9629CA0BE2002AD177 /* SuperCashUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCashUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F13D9FA429CA0C3C002AD177 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F13D9FA629CA0C46002AD177 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F1632ED829CBAD6700EE7BF0 /* SubscriptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsViewController.swift; sourceTree = "<group>"; };
+		F1632EDA29CBAE0700EE7BF0 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F1632EDC29CBAE7B00EE7BF0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F1632EE029CBB56F00EE7BF0 /* SubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCell.swift; sourceTree = "<group>"; };
+		F1FF331529CA3D7800B6F5BC /* Sub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13D9F6D29CA0BDE002AD177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13D9FAD29CA0FC4002AD177 /* ParseSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13D9F8329CA0BE2002AD177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13D9F8D29CA0BE2002AD177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F127568A29CA1CCB00EA9943 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F127568B29CA1CE500EA9943 /* User.swift */,
+				F1FF331529CA3D7800B6F5BC /* Sub.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F13D9F6729CA0BDE002AD177 = {
+			isa = PBXGroup;
+			children = (
+				F13D9F7229CA0BDE002AD177 /* SuperCash */,
+				F13D9F8929CA0BE2002AD177 /* SuperCashTests */,
+				F13D9F9329CA0BE2002AD177 /* SuperCashUITests */,
+				F13D9F7129CA0BDE002AD177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F13D9F7129CA0BDE002AD177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13D9F7029CA0BDE002AD177 /* SuperCash.app */,
+				F13D9F8629CA0BE2002AD177 /* SuperCashTests.xctest */,
+				F13D9F9029CA0BE2002AD177 /* SuperCashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13D9F7229CA0BDE002AD177 /* SuperCash */ = {
+			isa = PBXGroup;
+			children = (
+				F1632EDF29CBB54C00EE7BF0 /* Cells */,
+				F1632EDE29CBB49600EE7BF0 /* Cancel Subs */,
+				F1632ED729CBAD0B00EE7BF0 /* Adding-Viewing Subs */,
+				F127568A29CA1CCB00EA9943 /* Models */,
+				F13D9FA329CA0C2E002AD177 /* Login */,
+				F13D9F7329CA0BDE002AD177 /* AppDelegate.swift */,
+				F13D9F7529CA0BDE002AD177 /* SceneDelegate.swift */,
+				F13D9F7929CA0BDE002AD177 /* Main.storyboard */,
+				F13D9F7C29CA0BE1002AD177 /* Assets.xcassets */,
+				F13D9F7E29CA0BE1002AD177 /* LaunchScreen.storyboard */,
+				F13D9F8129CA0BE1002AD177 /* Info.plist */,
+			);
+			path = SuperCash;
+			sourceTree = "<group>";
+		};
+		F13D9F8929CA0BE2002AD177 /* SuperCashTests */ = {
+			isa = PBXGroup;
+			children = (
+				F13D9F8A29CA0BE2002AD177 /* SuperCashTests.swift */,
+			);
+			path = SuperCashTests;
+			sourceTree = "<group>";
+		};
+		F13D9F9329CA0BE2002AD177 /* SuperCashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F13D9F9429CA0BE2002AD177 /* SuperCashUITests.swift */,
+				F13D9F9629CA0BE2002AD177 /* SuperCashUITestsLaunchTests.swift */,
+			);
+			path = SuperCashUITests;
+			sourceTree = "<group>";
+		};
+		F13D9FA329CA0C2E002AD177 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F13D9FA429CA0C3C002AD177 /* LoginViewController.swift */,
+				F13D9FA629CA0C46002AD177 /* SignUpViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F1632ED729CBAD0B00EE7BF0 /* Adding-Viewing Subs */ = {
+			isa = PBXGroup;
+			children = (
+				F1632ED829CBAD6700EE7BF0 /* SubscriptionsViewController.swift */,
+				F1632EDA29CBAE0700EE7BF0 /* AddViewController.swift */,
+				F1632EDC29CBAE7B00EE7BF0 /* DetailViewController.swift */,
+			);
+			path = "Adding-Viewing Subs";
+			sourceTree = "<group>";
+		};
+		F1632EDE29CBB49600EE7BF0 /* Cancel Subs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Cancel Subs";
+			sourceTree = "<group>";
+		};
+		F1632EDF29CBB54C00EE7BF0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F1632EE029CBB56F00EE7BF0 /* SubCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13D9F6F29CA0BDE002AD177 /* SuperCash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13D9F9A29CA0BE2002AD177 /* Build configuration list for PBXNativeTarget "SuperCash" */;
+			buildPhases = (
+				F13D9F6C29CA0BDE002AD177 /* Sources */,
+				F13D9F6D29CA0BDE002AD177 /* Frameworks */,
+				F13D9F6E29CA0BDE002AD177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCash;
+			packageProductDependencies = (
+				F13D9FAC29CA0FC4002AD177 /* ParseSwift */,
+			);
+			productName = SuperCash;
+			productReference = F13D9F7029CA0BDE002AD177 /* SuperCash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F13D9F8529CA0BE2002AD177 /* SuperCashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13D9F9D29CA0BE2002AD177 /* Build configuration list for PBXNativeTarget "SuperCashTests" */;
+			buildPhases = (
+				F13D9F8229CA0BE2002AD177 /* Sources */,
+				F13D9F8329CA0BE2002AD177 /* Frameworks */,
+				F13D9F8429CA0BE2002AD177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13D9F8829CA0BE2002AD177 /* PBXTargetDependency */,
+			);
+			name = SuperCashTests;
+			productName = SuperCashTests;
+			productReference = F13D9F8629CA0BE2002AD177 /* SuperCashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F13D9F8F29CA0BE2002AD177 /* SuperCashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13D9FA029CA0BE2002AD177 /* Build configuration list for PBXNativeTarget "SuperCashUITests" */;
+			buildPhases = (
+				F13D9F8C29CA0BE2002AD177 /* Sources */,
+				F13D9F8D29CA0BE2002AD177 /* Frameworks */,
+				F13D9F8E29CA0BE2002AD177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13D9F9229CA0BE2002AD177 /* PBXTargetDependency */,
+			);
+			name = SuperCashUITests;
+			productName = SuperCashUITests;
+			productReference = F13D9F9029CA0BE2002AD177 /* SuperCashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13D9F6829CA0BDE002AD177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F13D9F6F29CA0BDE002AD177 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F13D9F8529CA0BE2002AD177 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F13D9F6F29CA0BDE002AD177;
+					};
+					F13D9F8F29CA0BE2002AD177 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F13D9F6F29CA0BDE002AD177;
+					};
+				};
+			};
+			buildConfigurationList = F13D9F6B29CA0BDE002AD177 /* Build configuration list for PBXProject "SuperCash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13D9F6729CA0BDE002AD177;
+			packageReferences = (
+				F13D9FAB29CA0FC4002AD177 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+			);
+			productRefGroup = F13D9F7129CA0BDE002AD177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13D9F6F29CA0BDE002AD177 /* SuperCash */,
+				F13D9F8529CA0BE2002AD177 /* SuperCashTests */,
+				F13D9F8F29CA0BE2002AD177 /* SuperCashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13D9F6E29CA0BDE002AD177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13D9F8029CA0BE1002AD177 /* LaunchScreen.storyboard in Resources */,
+				F13D9F7D29CA0BE1002AD177 /* Assets.xcassets in Resources */,
+				F13D9F7B29CA0BDE002AD177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13D9F8429CA0BE2002AD177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13D9F8E29CA0BE2002AD177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13D9F6C29CA0BDE002AD177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1632EDD29CBAE7B00EE7BF0 /* DetailViewController.swift in Sources */,
+				F1632EE129CBB56F00EE7BF0 /* SubCell.swift in Sources */,
+				F1632EDB29CBAE0700EE7BF0 /* AddViewController.swift in Sources */,
+				F13D9FA529CA0C3C002AD177 /* LoginViewController.swift in Sources */,
+				F13D9F7429CA0BDE002AD177 /* AppDelegate.swift in Sources */,
+				F13D9FA729CA0C46002AD177 /* SignUpViewController.swift in Sources */,
+				F127568C29CA1CE500EA9943 /* User.swift in Sources */,
+				F13D9F7629CA0BDE002AD177 /* SceneDelegate.swift in Sources */,
+				F1FF331629CA3D7800B6F5BC /* Sub.swift in Sources */,
+				F1632ED929CBAD6700EE7BF0 /* SubscriptionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13D9F8229CA0BE2002AD177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13D9F8B29CA0BE2002AD177 /* SuperCashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13D9F8C29CA0BE2002AD177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13D9F9529CA0BE2002AD177 /* SuperCashUITests.swift in Sources */,
+				F13D9F9729CA0BE2002AD177 /* SuperCashUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13D9F8829CA0BE2002AD177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13D9F6F29CA0BDE002AD177 /* SuperCash */;
+			targetProxy = F13D9F8729CA0BE2002AD177 /* PBXContainerItemProxy */;
+		};
+		F13D9F9229CA0BE2002AD177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13D9F6F29CA0BDE002AD177 /* SuperCash */;
+			targetProxy = F13D9F9129CA0BE2002AD177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13D9F7929CA0BDE002AD177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13D9F7A29CA0BDE002AD177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13D9F7E29CA0BE1002AD177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13D9F7F29CA0BE1002AD177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13D9F9829CA0BE2002AD177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F13D9F9929CA0BE2002AD177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13D9F9B29CA0BE2002AD177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperCash/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.SuperCash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F13D9F9C29CA0BE2002AD177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperCash/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.SuperCash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F13D9F9E29CA0BE2002AD177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.SuperCashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperCash";
+			};
+			name = Debug;
+		};
+		F13D9F9F29CA0BE2002AD177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.SuperCashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperCash";
+			};
+			name = Release;
+		};
+		F13D9FA129CA0BE2002AD177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.SuperCashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperCash;
+			};
+			name = Debug;
+		};
+		F13D9FA229CA0BE2002AD177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.SuperCashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperCash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13D9F6B29CA0BDE002AD177 /* Build configuration list for PBXProject "SuperCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13D9F9829CA0BE2002AD177 /* Debug */,
+				F13D9F9929CA0BE2002AD177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13D9F9A29CA0BE2002AD177 /* Build configuration list for PBXNativeTarget "SuperCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13D9F9B29CA0BE2002AD177 /* Debug */,
+				F13D9F9C29CA0BE2002AD177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13D9F9D29CA0BE2002AD177 /* Build configuration list for PBXNativeTarget "SuperCashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13D9F9E29CA0BE2002AD177 /* Debug */,
+				F13D9F9F29CA0BE2002AD177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13D9FA029CA0BE2002AD177 /* Build configuration list for PBXNativeTarget "SuperCashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13D9FA129CA0BE2002AD177 /* Debug */,
+				F13D9FA229CA0BE2002AD177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F13D9FAB29CA0FC4002AD177 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F13D9FAC29CA0FC4002AD177 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F13D9FAB29CA0FC4002AD177 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F13D9F6829CA0BDE002AD177 /* Project object */;
+}
